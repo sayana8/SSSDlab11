@@ -85,10 +85,10 @@ OIDC_OP_USER_ENDPOINT = "http://localhost:8080/realms/MyLabRealm/protocol/openid
 OIDC_OP_JWKS_ENDPOINT = "http://localhost:8080/realms/MyLabRealm/protocol/openid-connect/certs"
 
 # Redirect URLs
-KEYCLOAK_REDIRECT_URI = 'http://localhost:8000/callback/'  # сюда Keycloak будет редиректить после логина
+KEYCLOAK_REDIRECT_URI = 'http://localhost:8000/callback/' 
 LOGIN_REDIRECT_URL = "/"
 LOGOUT_REDIRECT_URL = "http://localhost:8000/"
-LOGIN_URL = "/login/"  # путь к твоему login_view
+LOGIN_URL = "/login/"  
 
 # Authentication backends
 AUTHENTICATION_BACKENDS = (
