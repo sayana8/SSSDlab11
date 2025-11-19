@@ -21,9 +21,9 @@ from main import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index, name='home'),
-    path('login/', views.login_view, name='login'),  # твой login_view
+    path('login/', views.login_view, name='login'),
     path('callback/', views.callback, name='callback'),
-    path('logout/', views.logout_view, name='logout') # <-- здесь
+    path('logout/', views.logout_view, name='logout')
 ]
 
 
